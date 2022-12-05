@@ -6,13 +6,20 @@ const BLOCK_SIZE = 30
 const LINES_PER_LEVEL = 10
 const COLORS = [
   "none",
-  "cyan",
-  "blue",
-  "orange",
-  "yellow",
-  "green",
-  "purple",
-  "red",
+  "#00ff9f",
+  "#00b8ff",
+  "rgb(215, 65, 235)",
+  "#FCEE0C",
+  "#03D8F3",
+  "#bd00ff",
+  "#ff95c0",
+  // "cyan",
+  // "blue",
+  // "orange",
+  // "yellow",
+  // "green",
+  // "purple",
+  // "red",
 ]
 Object.freeze(COLORS)
 
@@ -55,6 +62,10 @@ const SHAPES = [
   ],
 ]
 Object.freeze(SHAPES)
+
+const BORDER = ["black"]
+
+Object.freeze(BORDER)
 
 const KEY = {
   ESC: 27,
