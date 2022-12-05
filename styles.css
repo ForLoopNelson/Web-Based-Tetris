@@ -2,6 +2,15 @@
   font-family: "Press Start 2P", cursive;
 }
 
+body {
+  background: url(./assets/cyberpbg.jpg);
+  height: 100%vh;
+}
+
+.main-text {
+  color: #bb18a3;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 320px 200px;
@@ -14,11 +23,12 @@
 }
 
 .game-board {
-  border: solid 2px;
+  border: solid 3px;
+  background: rgba(106, 26, 143, 0.5);
 }
 
 .play-button {
-  background-color: #4caf50;
+  background-color: #ff95c0;
   font-size: 16px;
   padding: 15px 30px;
   cursor: pointer;
