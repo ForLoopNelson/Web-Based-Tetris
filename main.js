@@ -68,9 +68,6 @@ function addEventListener() {
           account.score += POINTS.SOFT_DROP
         }
       }
-      // ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height)
-
-      // board.piece.draw()
     }
   })
 }

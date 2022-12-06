@@ -63,8 +63,6 @@ const SHAPES = [
 ]
 Object.freeze(SHAPES)
 
-const BORDER = ["black"]
-
 Object.freeze(BORDER)
 
 const KEY = {
