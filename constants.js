@@ -63,8 +63,6 @@ const SHAPES = [
 ]
 Object.freeze(SHAPES)
 
-Object.freeze(BORDER)
-
 const KEY = {
   ESC: 27,
   SPACE: 32,
