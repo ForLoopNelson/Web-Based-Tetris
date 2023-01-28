@@ -33,3 +33,10 @@ body {
   padding: 15px 30px;
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
