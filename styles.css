@@ -35,8 +35,15 @@ body {
 }
 
 @media (max-width: 600px) {
-  .grid {
+  .grid:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 200px));
+    order: 2;
+  }
+
+  .right-column:nth-child(1) {
     display: flex;
     flex-wrap: wrap;
+    order: 1;
   }
 }
